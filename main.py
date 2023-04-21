@@ -43,9 +43,8 @@ def maria(puntaje_de_juan):
             return tirar_dado()
 
 
-
 if __name__ == '__main__':
-    for tiradas in [10_000, 100_000, 300_000]:
+    for tiradas in [10_000, 100_000, 200_000]:
         gana_juan = 0
         gana_maria = 0
         empatan = 0
